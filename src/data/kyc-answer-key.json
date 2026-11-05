@@ -1,0 +1,347 @@
+{
+ "K01": {
+  "expected": {
+   "status": "flagged",
+   "flags": [
+    "registry.status",
+    "udyam.number"
+   ],
+   "problem": "GSTIN cancelled; Udyam certificate has no registration number"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "37IHKXV5167L1ZS",
+    "legalName": "Neha Kaur (Prop. Vindhya Tours & Travels)",
+    "tradeName": "Vindhya Tours & Travels",
+    "pincode": "118383"
+   },
+   "signatory_id": {
+    "name": "Neha Kaur",
+    "validTill": "2028-03-26"
+   },
+   "address_proof": {
+    "billedTo": "Vindhya Tours & Travels",
+    "pincode": "118383",
+    "billDate": "2026-06-26"
+   },
+   "udyam_certificate": {
+    "udyamNumber": null,
+    "enterpriseName": "Vindhya Tours & Travels"
+   }
+  }
+ },
+ "K02": {
+  "expected": {
+   "status": "verified",
+   "flags": [],
+   "problem": "Clean applicant; GST certificate is a rotated scan"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "19EOGXH4115Y1ZL",
+    "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+    "tradeName": "Harmony Dental Care",
+    "pincode": "347550"
+   },
+   "signatory_id": {
+    "name": "Joseph Shah",
+    "validTill": "2028-09-10"
+   },
+   "address_proof": {
+    "billedTo": "Harmony Dental Care",
+    "pincode": "347550",
+    "billDate": "2026-05-22"
+   },
+   "udyam_certificate": {
+    "udyamNumber": "UDYAM-WB-00-5053330",
+    "enterpriseName": "Harmony Dental Care"
+   }
+  }
+ },
+ "K03": {
+  "expected": {
+   "status": "verified",
+   "flags": [],
+   "problem": "Clean applicant"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "27XUIXG0767D1ZP",
+    "legalName": "Joseph Singh (Prop. Ganesh Woodcraft)",
+    "tradeName": "Ganesh Woodcraft",
+    "pincode": "411231"
+   },
+   "signatory_id": {
+    "name": "Joseph Singh",
+    "validTill": "2028-07-04"
+   },
+   "address_proof": {
+    "billedTo": "Ganesh Woodcraft",
+    "pincode": "411231",
+    "billDate": "2026-05-30"
+   },
+   "udyam_certificate": {
+    "udyamNumber": "UDYAM-MH-00-9516696",
+    "enterpriseName": "Ganesh Woodcraft"
+   }
+  }
+ },
+ "K04": {
+  "expected": {
+   "status": "review",
+   "flags": [
+    "gst_certificate.quality"
+   ],
+   "problem": "GST certificate is too blurred to read"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "27PZSXS1936O1ZH",
+    "legalName": "Saffron Dental Care LLP",
+    "tradeName": "Saffron Dental Care LLP",
+    "pincode": "137452"
+   },
+   "signatory_id": {
+    "name": "Fatima Pillai",
+    "validTill": "2028-08-03"
+   },
+   "address_proof": {
+    "billedTo": "Saffron Dental Care LLP",
+    "pincode": "137452",
+    "billDate": "2026-05-28"
+   },
+   "udyam_certificate": {
+    "udyamNumber": "UDYAM-MH-00-6131836",
+    "enterpriseName": "Saffron Dental Care LLP"
+   }
+  }
+ },
+ "K05": {
+  "expected": {
+   "status": "flagged",
+   "flags": [
+    "udyam.missing"
+   ],
+   "problem": "Udyam certificate not provided"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "32TZAXB5481U1Z1",
+    "legalName": "Balaji Realty LLP",
+    "tradeName": "Balaji Realty LLP",
+    "pincode": "752083"
+   },
+   "signatory_id": {
+    "name": "Anita Shah",
+    "validTill": "2029-09-11"
+   },
+   "address_proof": {
+    "billedTo": "Balaji Realty LLP",
+    "pincode": "752083",
+    "billDate": "2026-06-11"
+   }
+  }
+ },
+ "K06": {
+  "expected": {
+   "status": "flagged",
+   "flags": [
+    "gst.checksum"
+   ],
+   "problem": "GSTIN printed on certificate has a wrong digit (fails checksum)"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "08YKZXS8189L1ZO",
+    "legalName": "Pooja Shah (Prop. Saffron Unisex Salon)",
+    "tradeName": "Saffron Unisex Salon",
+    "pincode": "194057"
+   },
+   "signatory_id": {
+    "name": "Pooja Shah",
+    "validTill": "2028-09-15"
+   },
+   "address_proof": {
+    "billedTo": "Saffron Unisex Salon",
+    "pincode": "194057",
+    "billDate": "2026-06-11"
+   },
+   "udyam_certificate": {
+    "udyamNumber": "UDYAM-RJ-00-6577157",
+    "enterpriseName": "Saffron Unisex Salon"
+   }
+  }
+ },
+ "K07": {
+  "expected": {
+   "status": "flagged",
+   "flags": [
+    "gst.legalName"
+   ],
+   "problem": "Legal name on certificate differs from registry"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "07CPCXN0398P1ZT",
+    "legalName": "Neha Banerjee (Prop. Shri Physio Clinic)",
+    "tradeName": "Neelgiri Physio Clinic",
+    "pincode": "334596"
+   },
+   "signatory_id": {
+    "name": "Neha Banerjee",
+    "validTill": "2030-05-05"
+   },
+   "address_proof": {
+    "billedTo": "Neelgiri Physio Clinic",
+    "pincode": "334596",
+    "billDate": "2026-07-05"
+   },
+   "udyam_certificate": {
+    "udyamNumber": "UDYAM-DL-00-9565547",
+    "enterpriseName": "Neelgiri Physio Clinic"
+   }
+  }
+ },
+ "K08": {
+  "expected": {
+   "status": "verified",
+   "flags": [],
+   "problem": "Clean applicant"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "24XORXG9365M1Z3",
+    "legalName": "Joseph Rao (Prop. Green Leaf Legal Associates)",
+    "tradeName": "Green Leaf Legal Associates",
+    "pincode": "348176"
+   },
+   "signatory_id": {
+    "name": "Joseph Rao",
+    "validTill": "2027-09-18"
+   },
+   "address_proof": {
+    "billedTo": "Green Leaf Legal Associates",
+    "pincode": "348176",
+    "billDate": "2026-05-26"
+   },
+   "udyam_certificate": {
+    "udyamNumber": "UDYAM-GJ-00-8477445",
+    "enterpriseName": "Green Leaf Legal Associates"
+   }
+  }
+ },
+ "K09": {
+  "expected": {
+   "status": "verified",
+   "flags": [],
+   "problem": "Clean applicant"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "37LDYXK0296F1ZB",
+    "legalName": "Anita Kulkarni (Prop. Kaveri Insurance Advisors)",
+    "tradeName": "Kaveri Insurance Advisors",
+    "pincode": "405337"
+   },
+   "signatory_id": {
+    "name": "Anita Kulkarni",
+    "validTill": "2027-12-22"
+   },
+   "address_proof": {
+    "billedTo": "Kaveri Insurance Advisors",
+    "pincode": "405337",
+    "billDate": "2026-07-10"
+   },
+   "udyam_certificate": {
+    "udyamNumber": "UDYAM-AP-00-9751562",
+    "enterpriseName": "Kaveri Insurance Advisors"
+   }
+  }
+ },
+ "K10": {
+  "expected": {
+   "status": "verified",
+   "flags": [],
+   "problem": "Clean applicant; OCR misreads J as I, recovered by checksum"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "27QHJXK0658U1ZL",
+    "legalName": "Kaveri Stays LLP",
+    "tradeName": "Kaveri Stays LLP",
+    "pincode": "570043"
+   },
+   "signatory_id": {
+    "name": "Nisha Arora",
+    "validTill": "2029-06-01"
+   },
+   "address_proof": {
+    "billedTo": "Kaveri Stays LLP",
+    "pincode": "570043",
+    "billDate": "2026-06-18"
+   },
+   "udyam_certificate": {
+    "udyamNumber": "UDYAM-MH-00-7183141",
+    "enterpriseName": "Kaveri Stays LLP"
+   }
+  }
+ },
+ "K11": {
+  "expected": {
+   "status": "flagged",
+   "flags": [
+    "addr.age"
+   ],
+   "problem": "Address proof is 257 days old"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "03KGZXT1320R1ZZ",
+    "legalName": "Trinity Bake House Pvt Ltd",
+    "tradeName": "Trinity Bake House Pvt Ltd",
+    "pincode": "541498"
+   },
+   "signatory_id": {
+    "name": "Vikram Pillai",
+    "validTill": "2028-12-23"
+   },
+   "address_proof": {
+    "billedTo": "Trinity Bake House Pvt Ltd",
+    "pincode": "541498",
+    "billDate": "2025-10-31"
+   },
+   "udyam_certificate": {
+    "udyamNumber": "UDYAM-PB-00-9719478",
+    "enterpriseName": "Trinity Bake House Pvt Ltd"
+   }
+  }
+ },
+ "K12": {
+  "expected": {
+   "status": "verified",
+   "flags": [],
+   "problem": "Clean applicant"
+  },
+  "fields": {
+   "gst_certificate": {
+    "gstin": "37NBLXS1145E1ZU",
+    "legalName": "Pooja Agarwal (Prop. Star Electronics)",
+    "tradeName": "Star Electronics",
+    "pincode": "762071"
+   },
+   "signatory_id": {
+    "name": "Pooja Agarwal",
+    "validTill": "2029-03-03"
+   },
+   "address_proof": {
+    "billedTo": "Star Electronics",
+    "pincode": "762071",
+    "billDate": "2026-07-06"
+   },
+   "udyam_certificate": {
+    "udyamNumber": "UDYAM-AP-00-5186772",
+    "enterpriseName": "Star Electronics"
+   }
+  }
+ }
+}
