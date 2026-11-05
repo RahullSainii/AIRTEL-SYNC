@@ -3,9 +3,19 @@
 **From days to seconds.** A small business owner describes their shop on a phone, in their own language, and leaves with the right bundle, verified KYC and a live installation date. Team Techuminati.
 
 All businesses, registries and documents are synthetic hackathon data. Registries are mock; documents are specimens.
+
+
+
 <img width="1912" height="822" alt="image" src="https://github.com/user-attachments/assets/909f75d7-c83c-4a75-93fd-9ca4db65e48f" />
 
+
+
 <img width="1915" height="932" alt="image" src="https://github.com/user-attachments/assets/62425efc-ea04-4ec0-932d-05a6610b43f0" />
+
+
+
+<img width="1907" height="865" alt="image" src="https://github.com/user-attachments/assets/b64db6e3-e438-4291-99e2-4ece880ffa52" />
+
 
 
 ## What is in the prototype
