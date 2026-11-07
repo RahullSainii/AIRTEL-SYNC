@@ -4,6 +4,13 @@
 
 All businesses, registries and documents are synthetic hackathon data. Registries are mock; documents are specimens.
 
+**Demo video:** https://drive.google.com/file/d/1zuGBDsAdmgULxjEPUjrYMG2Lwyu2wyfs/view?usp=drivesdk
+
+### Judge quick start
+1. Run `pnpm install` then `pnpm dev`, and open the URL shown in the terminal (usually http://localhost:3000/onboard).
+2. It works without a `GROQ_API_KEY`: offline rules take over if no key is set.
+3. Follow the 3-minute demo below, then open `/evidence` to rerun the KYC benchmark and the 15 advisor scenarios.
+
 
 
 <img width="1912" height="822" alt="image" src="https://github.com/user-attachments/assets/909f75d7-c83c-4a75-93fd-9ca4db65e48f" />
